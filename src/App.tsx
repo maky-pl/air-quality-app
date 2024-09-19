@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import Map from './components/Map';
 
 const App: React.FC = () => {
