@@ -37,7 +37,7 @@ const defaultIcon = L.icon({
   shadowSize: [41, 41],
 });
 
-const Map: React.FC<MapProps> = ({ radius }) => {
+const Map: React.FC<MapProps> = () => {
   const [position, setPosition] = useState<[number, number] | null>(null); // User's current location
   const [airQualityData, setAirQualityData] = useState<AirQualityData | null>(null); // Air quality data from API
 
